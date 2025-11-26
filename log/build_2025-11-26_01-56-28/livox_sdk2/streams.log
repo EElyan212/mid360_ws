@@ -1,0 +1,18 @@
+[0.013s] Invoking command in '/home/niuniu/mid360_ws/build/livox_sdk2': /usr/bin/cmake --build /home/niuniu/mid360_ws/build/livox_sdk2 -- -j8 -l8
+[0.088s] [ 42%] Built target livox_lidar_sdk_shared
+[0.096s] [ 84%] Built target livox_lidar_sdk_static
+[0.124s] [ 86%] Built target livox_lidar_quick_start
+[0.127s] [ 89%] Built target multi_lidars_upgrade
+[0.129s] [ 91%] Built target debug_point_cloud
+[0.130s] [ 93%] Built target logger
+[0.135s] [ 96%] Built target lidar_cmd_observer
+[0.135s] [100%] Built target livox_lidar_rmc_time_sync
+[0.149s] Invoked command in '/home/niuniu/mid360_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/niuniu/mid360_ws/build/livox_sdk2 -- -j8 -l8
+[0.159s] Invoking command in '/home/niuniu/mid360_ws/build/livox_sdk2': /usr/bin/cmake --install /home/niuniu/mid360_ws/build/livox_sdk2
+[0.166s] -- Install configuration: ""
+[0.166s] -- Up-to-date: /home/niuniu/mid360_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+[0.166s] -- Up-to-date: /home/niuniu/mid360_ws/install/livox_sdk2/include/livox_lidar_def.h
+[0.166s] -- Up-to-date: /home/niuniu/mid360_ws/install/livox_sdk2/include/livox_lidar_api.h
+[0.166s] -- Up-to-date: /home/niuniu/mid360_ws/install/livox_sdk2/include/livox_lidar_cfg.h
+[0.166s] -- Up-to-date: /home/niuniu/mid360_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so
+[0.169s] Invoked command in '/home/niuniu/mid360_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/niuniu/mid360_ws/build/livox_sdk2
