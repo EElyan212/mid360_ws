@@ -1,0 +1,350 @@
+[0.151s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']
+[0.152s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76424a927bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76424a926b90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76424a926b90>>)
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.576s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/niuniu/mid360_ws'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'python'
+[0.620s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Livox-SDK2' with type 'cmake' and name 'livox_sdk2'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_driver/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extension 'ros'
+[0.630s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_localization/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'ros'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['cmake', 'python']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'cmake'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'python'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['python_setup_py']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'python_setup_py'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extension 'ros'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extensions ['cmake', 'python']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extension 'cmake'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extension 'python'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extensions ['python_setup_py']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/src) by extension 'python_setup_py'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extension 'ros'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extensions ['cmake', 'python']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/third_party) by extension 'python_setup_py'
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.707s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/niuniu/mid360_ws/install/fast_lio' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.707s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/niuniu/mid360_ws/install/livox_ros_driver2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.707s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/niuniu/mid360_ws/install/fast_lio' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.707s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/niuniu/mid360_ws/install/livox_ros_driver2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.708s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/niuniu/mid360_ws/install
+[0.709s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/niuniu/ydlidar_ws/install
+[0.712s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 303 installed packages in /opt/ros/humble
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.831s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niuniu/mid360_ws/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niuniu/mid360_ws/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/niuniu/mid360_ws/src/rm_driver/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_first' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_force_configure' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'ament_cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.832s] DEBUG:colcon.colcon_core.verb:Building package 'livox_sdk2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niuniu/mid360_ws/build/livox_sdk2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niuniu/mid360_ws/install/livox_sdk2', 'merge_install': False, 'path': '/home/niuniu/mid360_ws/src/Livox-SDK2', 'symlink_install': False, 'test_result_base': None}
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.832s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niuniu/mid360_ws/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niuniu/mid360_ws/install/fast_lio', 'merge_install': False, 'path': '/home/niuniu/mid360_ws/src/rm_localization/FAST_LIO', 'symlink_install': False, 'test_result_base': None}
+[0.832s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.834s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niuniu/mid360_ws/src/rm_driver/livox_ros_driver2' with build type 'ament_cmake'
+[0.834s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niuniu/mid360_ws/src/rm_driver/livox_ros_driver2'
+[0.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niuniu/mid360_ws/src/Livox-SDK2'
+[0.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niuniu/mid360_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/niuniu/mid360_ws/src/rm_driver/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/niuniu/mid360_ws/install/livox_ros_driver2
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niuniu/mid360_ws/build/livox_sdk2': /usr/bin/cmake /home/niuniu/mid360_ws/src/Livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/niuniu/mid360_ws/install/livox_sdk2
+[2.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niuniu/mid360_ws/build/livox_sdk2' returned '0': /usr/bin/cmake /home/niuniu/mid360_ws/src/Livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/niuniu/mid360_ws/install/livox_sdk2
+[2.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niuniu/mid360_ws/build/livox_sdk2': /usr/bin/cmake --build /home/niuniu/mid360_ws/build/livox_sdk2 -- -j8 -l8
+[25.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niuniu/mid360_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/niuniu/mid360_ws/src/rm_driver/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/niuniu/mid360_ws/install/livox_ros_driver2
+[25.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niuniu/mid360_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/niuniu/mid360_ws/build/livox_ros_driver2 -- -j8 -l8
+[59.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niuniu/mid360_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/niuniu/mid360_ws/build/livox_ros_driver2 -- -j8 -l8
+[59.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niuniu/mid360_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/niuniu/mid360_ws/build/livox_ros_driver2
+[59.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[59.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niuniu/mid360_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/niuniu/mid360_ws/build/livox_ros_driver2
+[59.632s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2' for CMake module files
+[59.635s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2' for CMake config files
+[59.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[59.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[59.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[59.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[59.718s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2/lib'
+[59.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[59.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[59.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[59.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[59.722s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2/bin'
+[59.722s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[59.742s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[59.742s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2/bin'
+[59.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[59.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[59.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[59.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[59.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[59.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niuniu/mid360_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[59.808s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[59.809s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2' for CMake module files
+[59.809s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2' for CMake config files
+[59.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[59.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[59.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[59.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[59.814s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2/lib'
+[59.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[59.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[59.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[59.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[59.818s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2/bin'
+[59.818s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[59.818s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[59.818s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_ros_driver2/bin'
+[59.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[59.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[59.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[59.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[59.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[59.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niuniu/mid360_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[59.841s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niuniu/mid360_ws/src/rm_localization/FAST_LIO' with build type 'ament_cmake'
+[59.842s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niuniu/mid360_ws/src/rm_localization/FAST_LIO'
+[59.843s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[59.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[59.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niuniu/mid360_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2:/home/niuniu/mid360_ws/install/fast_lio:/home/niuniu/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2/lib:/home/niuniu/mid360_ws/install/livox_sdk2/lib:/home/niuniu/mid360_ws/install/fast_lio/lib:/lib:/opt/ros/humble/lib:/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake /home/niuniu/mid360_ws/src/rm_localization/FAST_LIO -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/niuniu/mid360_ws/install/fast_lio
+[60.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niuniu/mid360_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/niuniu/mid360_ws/build/livox_sdk2 -- -j8 -l8
+[60.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niuniu/mid360_ws/build/livox_sdk2': /usr/bin/cmake --install /home/niuniu/mid360_ws/build/livox_sdk2
+[60.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_sdk2)
+[60.333s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_sdk2' for CMake module files
+[60.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niuniu/mid360_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/niuniu/mid360_ws/build/livox_sdk2
+[60.333s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_sdk2' for CMake config files
+[60.334s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_sdk2/lib'
+[60.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_sdk2', 'ld_library_path_lib')
+[60.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.ps1'
+[60.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niuniu/mid360_ws/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.dsv'
+[60.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.sh'
+[60.336s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_sdk2/bin'
+[60.336s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_sdk2/lib/pkgconfig/livox_sdk2.pc'
+[60.336s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_sdk2/lib/python3.10/site-packages'
+[60.336s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/livox_sdk2/bin'
+[60.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_sdk2/share/livox_sdk2/package.ps1'
+[60.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niuniu/mid360_ws/install/livox_sdk2/share/livox_sdk2/package.dsv'
+[60.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_sdk2/share/livox_sdk2/package.sh'
+[60.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_sdk2/share/livox_sdk2/package.bash'
+[60.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/livox_sdk2/share/livox_sdk2/package.zsh'
+[60.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niuniu/mid360_ws/install/livox_sdk2/share/colcon-core/packages/livox_sdk2)
+[65.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niuniu/mid360_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2:/home/niuniu/mid360_ws/install/fast_lio:/home/niuniu/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2/lib:/home/niuniu/mid360_ws/install/livox_sdk2/lib:/home/niuniu/mid360_ws/install/fast_lio/lib:/lib:/opt/ros/humble/lib:/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake /home/niuniu/mid360_ws/src/rm_localization/FAST_LIO -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/niuniu/mid360_ws/install/fast_lio
+[65.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niuniu/mid360_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2:/home/niuniu/mid360_ws/install/fast_lio:/home/niuniu/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2/lib:/home/niuniu/mid360_ws/install/livox_sdk2/lib:/home/niuniu/mid360_ws/install/fast_lio/lib:/lib:/opt/ros/humble/lib:/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --build /home/niuniu/mid360_ws/build/fast_lio -- -j8 -l8
+[225.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niuniu/mid360_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2:/home/niuniu/mid360_ws/install/fast_lio:/home/niuniu/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2/lib:/home/niuniu/mid360_ws/install/livox_sdk2/lib:/home/niuniu/mid360_ws/install/fast_lio/lib:/lib:/opt/ros/humble/lib:/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --build /home/niuniu/mid360_ws/build/fast_lio -- -j8 -l8
+[225.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niuniu/mid360_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2:/home/niuniu/mid360_ws/install/fast_lio:/home/niuniu/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2/lib:/home/niuniu/mid360_ws/install/livox_sdk2/lib:/home/niuniu/mid360_ws/install/fast_lio/lib:/lib:/opt/ros/humble/lib:/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --install /home/niuniu/mid360_ws/build/fast_lio
+[226.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[226.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niuniu/mid360_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2:/home/niuniu/mid360_ws/install/fast_lio:/home/niuniu/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/niuniu/mid360_ws/install/livox_ros_driver2/lib:/home/niuniu/mid360_ws/install/livox_sdk2/lib:/home/niuniu/mid360_ws/install/fast_lio/lib:/lib:/opt/ros/humble/lib:/lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --install /home/niuniu/mid360_ws/build/fast_lio
+[226.349s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio' for CMake module files
+[226.354s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio' for CMake config files
+[226.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[226.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[226.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[226.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[226.444s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio/lib'
+[226.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[226.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[226.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[226.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[226.450s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio/bin'
+[226.451s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[226.473s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio/lib/python3.10/site-packages'
+[226.473s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio/bin'
+[226.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/package.ps1'
+[226.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/package.dsv'
+[226.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/package.sh'
+[226.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/package.bash'
+[226.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/package.zsh'
+[226.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niuniu/mid360_ws/install/fast_lio/share/colcon-core/packages/fast_lio)
+[226.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[226.512s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio' for CMake module files
+[226.513s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio' for CMake config files
+[226.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[226.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[226.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[226.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[226.516s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio/lib'
+[226.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[226.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[226.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[226.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[226.520s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio/bin'
+[226.521s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[226.521s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio/lib/python3.10/site-packages'
+[226.522s] Level 1:colcon.colcon_core.environment:checking '/home/niuniu/mid360_ws/install/fast_lio/bin'
+[226.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/package.ps1'
+[226.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/package.dsv'
+[226.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/package.sh'
+[226.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/package.bash'
+[226.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/niuniu/mid360_ws/install/fast_lio/share/fast_lio/package.zsh'
+[226.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niuniu/mid360_ws/install/fast_lio/share/colcon-core/packages/fast_lio)
+[226.553s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[226.575s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[226.576s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[226.577s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[226.771s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[226.772s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[226.772s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[227.664s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[227.670s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niuniu/mid360_ws/install/local_setup.ps1'
+[227.673s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niuniu/mid360_ws/install/_local_setup_util_ps1.py'
+[227.677s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niuniu/mid360_ws/install/setup.ps1'
+[227.692s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niuniu/mid360_ws/install/local_setup.sh'
+[227.693s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niuniu/mid360_ws/install/_local_setup_util_sh.py'
+[227.694s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niuniu/mid360_ws/install/setup.sh'
+[227.695s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niuniu/mid360_ws/install/local_setup.bash'
+[227.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niuniu/mid360_ws/install/setup.bash'
+[227.700s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niuniu/mid360_ws/install/local_setup.zsh'
+[227.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niuniu/mid360_ws/install/setup.zsh'
